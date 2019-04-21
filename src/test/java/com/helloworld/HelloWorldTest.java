@@ -14,7 +14,7 @@ public class HelloWorldTest
     {
         String upperCase = UpperCase.upperCase("Hello World!");
         try {
-        	assertEquals("HELLO WORLD!", upperCase);;
+        	assertEquals("HELLO WORLD Update!", upperCase);;
         } catch (AssertionError e) {
             fail("\"message\" is not \"HELLO WORLD!\"");
         }
